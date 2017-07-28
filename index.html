@@ -30,6 +30,16 @@
       #masthead h1 {
         display: table-cell;
         vertical-align: bottom;
+      } 
+      @media (max-width: 768px) {
+          #photos img {
+            margin-bottom: 0.5em;
+          }
+      }
+      @media (min-width: 768px) {
+          #photos .row {
+            margin-bottom: 1em;
+          }
       }
       
     </style>
@@ -42,50 +52,68 @@
           <h1 class="display-1">Ayanda Lily Ezana</h1>
         </div>
       </div>
-      <h2 class="display-2">Videos</h2>
-      <div class="row">
+      <div class="row mb-3">
         <div class="col">
+          <h2 class="display-2">News</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 mb-3">
+          <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FAyandaLilyEzana&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=72010438211" class="w-100" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+        </div>
+        <div class="col-lg-8 mb-3">
           <iframe src="https://www.youtube.com/embed/videoseries?list=PLmDCM6Eah8eUo4N1e_37aOYjS6SInd_7n" class="w-100 h-100" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
       <h2 class="display-2">Photos</h2>
-      <div class="row mb-3">
-        <div class="col-md-4">
-          <a href="https://photos.app.goo.gl/PmslXm3HSMz9GfyT2" title="Jul-Sep 2017"><img src="images/album_2017q3.jpg" class="img-thumbnail"></a>
+        <div id="photos">
+        <div class="row">
+          <div class="col-md-4">
+            <a href="https://photos.app.goo.gl/PmslXm3HSMz9GfyT2" title="Jul-Sep 2017"><img src="images/album_2017q3.jpg" class="img-thumbnail"></a>
+          </div>
+          <div class="col-md-4">
+            <a href="https://photos.app.goo.gl/doSBNkUr7Pgu9d2S2" title="Apr-Jun 2017"><img src="images/album_2017q2.jpg" class="img-thumbnail"></a>
+          </div>
+          <div class="col-md-4">
+            <a href="https://photos.app.goo.gl/0lTxW74pFz27Ewxh1" title="Oct-Dec 2017"><img src="images/album_2016q4.jpg" class="img-thumbnail"></a>
+          </div>
         </div>
-        <div class="col-md-4">
-          <a href="https://photos.app.goo.gl/doSBNkUr7Pgu9d2S2" title="Apr-Jun 2017"><img src="images/album_2017q2.jpg" class="img-thumbnail"></a>
+        <div class="row">
+          <div class="col-md-4">
+            <a href="https://photos.app.goo.gl/ttFjMmWukYHoRJ8M2" title="Apr-Jun 2016"><img src="images/album_2016q2.jpg" class="img-thumbnail"></a>
+          </div>
+          <div class="col-md-4">
+            <a href="https://photos.app.goo.gl/XQDQNuupTsFVoRjK2" title="Jan-Mar 2016"><img src="images/album_2016q1.jpg" class="img-thumbnail"></a>
+          </div>
+          <div class="col-md-4">
+            <a href="https://photos.app.goo.gl/mBfSZZnAdoRfiNG42" title="Jul-Sep 2015"><img src="images/album_2015q3.jpg" class="img-thumbnail"></a>
+          </div>
         </div>
-        <div class="col-md-4">
-          <a href="https://photos.app.goo.gl/0lTxW74pFz27Ewxh1" title="Oct-Dec 2017"><img src="images/album_2016q4.jpg" class="img-thumbnail"></a>
+        <div class="row">
+          <div class="col-md-4">
+            <a href="https://goo.gl/photos/DXJHcKv9ckUqumCS7" title="Jan-Mar 2014" alt="Jan-Mar 2014"><img src="images/album_2014q1.jpg" class="img-thumbnail"></a>
+          </div>
+          <div class="col-md-4">
+            <a href="https://photos.app.goo.gl/ZKXCNJ5KlxO6ZOPn2" title="Oct-Dec 2013"><img src="images/album_2013q4.jpg" class="img-thumbnail"></a>
+          </div>
+          <div class="col-md-4">
+            <a href="https://photos.app.goo.gl/nzYBRdIY3kGateeF2" title="Jul-Sep 2013"><img src="images/album_2013q3.jpg" class="img-thumbnail"></a>
+          </div>
         </div>
-      </div>
-      <div class="row mb-3">
-        <div class="col-md-4">
-          <a href="https://goo.gl/photos/DXJHcKv9ckUqumCS7" title="Jan-Mar 2014" alt="Jan-Mar 2014"><img src="images/album_2014q1.jpg" class="img-thumbnail"></a>
-        </div>
-        <div class="col-md-4">
-          <a href="https://photos.app.goo.gl/ZKXCNJ5KlxO6ZOPn2" title="Oct-Dec 2013"><img src="images/album_2013q4.jpg" class="img-thumbnail"></a>
-        </div>
-        <div class="col-md-4">
-          <a href="https://photos.app.goo.gl/nzYBRdIY3kGateeF2" title="Jul-Sep 2013"><img src="images/album_2013q3.jpg" class="img-thumbnail"></a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <a href="https://photos.app.goo.gl/cVFwpG628nFCbaSi2" title="Apr-Jun 2013"><img src="images/album_2013q2.jpg" class="img-thumbnail" /></a>
-        </div>
-        <div class="col-md-4">
-          <a href="https://photos.app.goo.gl/jbWLyrDoohU0ij062" title="Jan-Mar 2013"><img src="images/album_2013q1.jpg" class="img-thumbnail" /></a>
-        </div>
-        <div class="col-md-4">
-          <a href="https://photos.app.goo.gl/Ywyzl04zn58uUmtP2" title="Nov-Dec 2012"><img src="images/album_2012q4.jpg" class="img-thumbnail" /></a>
+        <div class="row">
+          <div class="col-md-4">
+            <a href="https://photos.app.goo.gl/cVFwpG628nFCbaSi2" title="Apr-Jun 2013"><img src="images/album_2013q2.jpg" class="img-thumbnail" /></a>
+          </div>
+          <div class="col-md-4">
+            <a href="https://photos.app.goo.gl/jbWLyrDoohU0ij062" title="Jan-Mar 2013"><img src="images/album_2013q1.jpg" class="img-thumbnail" /></a>
+          </div>
+          <div class="col-md-4">
+            <a href="https://photos.app.goo.gl/Ywyzl04zn58uUmtP2" title="Nov-Dec 2012"><img src="images/album_2012q4.jpg" class="img-thumbnail" /></a>
+          </div>
         </div>
       </div>
       <div class="row">
         <div class="col">
-          <h2 class="display-2">News</h2>
-          <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FAyandaLilyEzana&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=72010438211" class="w-100" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
           <h2 class="display-2">Facts</h2>
           <p>In Zulu, Ayanda means 	&#8220;the family is growing&#8221;.</p>
           <p>
